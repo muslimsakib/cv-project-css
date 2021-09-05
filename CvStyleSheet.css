@@ -1,0 +1,162 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Kaisei HarunoUmi', serif;
+    background-color:aliceblue;
+}
+
+.container {
+    max-width: 1200px;
+    background-color: #021C3F;
+    color:cadetblue;
+    margin: 0 auto;
+    padding:20px;
+}
+
+
+/*header content start*/
+#profile-image {
+    width:100px;
+    height:120px;
+    border: 3px solid black;
+    border-radius: 50%;
+    float: left;
+}
+
+.bio{
+    float:left;
+    padding:30px;
+}
+
+.contact{
+    float:right;
+}
+
+.contact a{
+    text-decoration:none ;
+    color:teal;
+    font-weight:bold;
+}
+
+.contact a:hover{
+    text-decoration:underline;
+    color:deeppink;
+}
+
+hr{
+    border:solid 5px;
+    border-color:darkgray;
+    margin:20px auto;
+    border-bottom:none;
+}
+/*header content end*/
+
+
+/*main section start*/
+/*personal section start*/
+#personal-section{
+    
+}
+
+.personal-content {
+
+}
+/*personal section end*/
+
+
+/*common section start*/
+h1, h2, h3, h4, h5, h6 {
+    color: brown;
+}
+
+span{
+    color:brown;
+}
+
+.div-clear {
+    clear: both;
+}
+
+.left-div{
+    width:40%;
+    float:left;
+}
+
+.right-div{
+    width:60%;
+    float:left;
+}
+
+.subleft-div{
+    width:45%;
+    float:left;
+}
+
+.subright-div{
+    width:45%;
+    float:right;
+}
+
+.com-hr {
+    border: solid 2px;
+    border-color: darkolivegreen;
+    border-bottom: none;
+}
+/*common section end*/
+
+
+/*educational section start*/
+#educational-section{
+
+}
+
+.edu-content{
+
+}
+/*educational section end*/
+
+
+/*work section starts*/
+#work-section{
+
+}
+
+.work-content{
+
+}
+/*work section end*/
+
+
+/*reference section start*/
+#reference{
+
+}
+
+.ref-content{
+
+}
+/*refrence section end*/
+/*main section end*/
+
+
+/*footer start*/
+.bottom-content{
+    background-color:black;
+    text-align:center;
+    padding:10px;
+}
+
+.bottom-content a{
+    color:white;
+    text-decoration:none;
+    margin:40px;
+}
+
+.bottom-content p{
+    margin-top:20px;
+    color:darkred;
+}
+/*footer end*/
